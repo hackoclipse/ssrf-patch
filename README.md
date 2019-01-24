@@ -1,5 +1,5 @@
 # ssrf-patch
-As a challange i tryed to make a patch for every variant of internal server side request forgery.
+As a challange i tried to make a patch for every variant of internal server side request forgery.
 it's protected again's:
 
 every internal ip in url. ( as well octal/hexdeminal/binery encoded )

@@ -46,8 +46,8 @@ $opts = array('http' =>
 $context = stream_context_create($opts);
 $stream = fopen($url, 'r', false, $context);
 
-// escaping tags.
-echo htmlentities(stream_get_contents($stream), ENT_QUOTES);
+header('Content-Type:text/plain'); // change this in the format you like to return the content.
+echo stream_get_contents($stream);
 fclose($stream);
 
 }else{

@@ -31,8 +31,7 @@ if(!ipCheck($ips)){
 }
 
 
-if(!isset($is_allowed)){
-echo 'allowed';    
+if(!isset($is_allowed)){  
 
 //max_redirects 0 prevents ssrf by redirecting it to a internal ip.
 $opts = array('http' =>

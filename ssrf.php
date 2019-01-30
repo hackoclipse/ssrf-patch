@@ -51,7 +51,7 @@ echo stream_get_contents($stream);
 fclose($stream);
 
 }else{
-    echo 'forbidden';
+    echo '<h1>forbidden</h1>';
 }
 
 function ipCheck($ip){
